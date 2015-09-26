@@ -1,0 +1,1535 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pl",
+				"plsqlWorker"
+			],
+			[
+				"from",
+				"fromBranchName"
+			],
+			[
+				"branchMer",
+				"branchMergeTo"
+			],
+			[
+				"gener",
+				"genericBranchName"
+			],
+			[
+				"branchM",
+				"branchMergeFrom"
+			],
+			[
+				"sprint",
+				"sprintStats"
+			],
+			[
+				"sprintSt",
+				"sprintStatStr"
+			],
+			[
+				"totalNum",
+				"totalNumBugs"
+			],
+			[
+				"totaln",
+				"totalNumStories"
+			],
+			[
+				"progressS",
+				"progressStat"
+			],
+			[
+				"progress",
+				"progressStatus"
+			],
+			[
+				"project",
+				"projectStat"
+			],
+			[
+				"proje",
+				"projectStat"
+			],
+			[
+				"num",
+				"numStories"
+			],
+			[
+				"proj",
+				"projectStat"
+			],
+			[
+				"story",
+				"storyPoints"
+			],
+			[
+				"query",
+				"queryString"
+			],
+			[
+				"quer",
+				"queryString"
+			],
+			[
+				"qu",
+				"queryString"
+			],
+			[
+				"orig",
+				"origWD"
+			],
+			[
+				"sour",
+				"sourceFileName"
+			],
+			[
+				"sou",
+				"sourceFileName"
+			],
+			[
+				"tar",
+				"targetFileName"
+			],
+			[
+				"h_diag_o",
+				"h_diag_old_ar"
+			],
+			[
+				"lef",
+				"left-column"
+			],
+			[
+				"docer",
+				"dockerfileCmds"
+			],
+			[
+				"dockerf",
+				"dockerfileCmds"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"img",
+				"imgdiv"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"fin",
+				"finalLocList"
+			],
+			[
+				"apa",
+				"apache-tomcat-6"
+			],
+			[
+				"resp",
+				"respData"
+			],
+			[
+				"req",
+				"requestData"
+			],
+			[
+				"foundL",
+				"foundLine"
+			],
+			[
+				"targ",
+				"targetCodeSysStrs"
+			],
+			[
+				"check",
+				"checkForDescMatch"
+			],
+			[
+				"chec",
+				"checkForCodeMatch"
+			],
+			[
+				"un",
+				"unmergedList"
+			],
+			[
+				"getHo",
+				"getHostName"
+			],
+			[
+				"supervisor",
+				"supervisorctl"
+			],
+			[
+				"nu",
+				"numbers"
+			],
+			[
+				"lab",
+				"labelStr"
+			],
+			[
+				"mi",
+				"missingLabelList"
+			],
+			[
+				"sto",
+				"story"
+			],
+			[
+				"inv",
+				"invalidIssue"
+			],
+			[
+				"in",
+				"invalidIssue"
+			],
+			[
+				"invali",
+				"invalidIssueList"
+			],
+			[
+				"do",
+				"doesNotExistList"
+			],
+			[
+				"issueP",
+				"issueParentIssue"
+			],
+			[
+				"comm",
+				"commitSha"
+			],
+			[
+				"curr",
+				"currentBranch"
+			],
+			[
+				"invalidMes",
+				"invalidMessageList"
+			],
+			[
+				"ch",
+				"changeSetId"
+			],
+			[
+				"tick",
+				"ticketList"
+			],
+			[
+				"revisi",
+				"revisionList"
+			],
+			[
+				"contain",
+				"containingBranches"
+			],
+			[
+				"repo",
+				"repository"
+			],
+			[
+				"bc",
+				"bccEmails"
+			],
+			[
+				"ticket",
+				"ticketId"
+			],
+			[
+				"base",
+				"baseUrl"
+			],
+			[
+				"jiraUser",
+				"jiraUser"
+			],
+			[
+				"Ho",
+				"HookJiraWorker"
+			],
+			[
+				"Hoo",
+				"HookGitWorker"
+			],
+			[
+				"hook",
+				"hookWorker"
+			],
+			[
+				"warnings",
+				"warningsOnly"
+			],
+			[
+				"sender",
+				"senderEmail"
+			],
+			[
+				"dir",
+				"directoryName"
+			],
+			[
+				"respon",
+				"responseMsg"
+			],
+			[
+				"iss",
+				"issueId"
+			],
+			[
+				"receiv",
+				"receiverEmail"
+			],
+			[
+				"rece",
+				"receiverEmail"
+			],
+			[
+				"confi",
+				"configProperties"
+			],
+			[
+				"logFil",
+				"logFile2"
+			],
+			[
+				"bigLog",
+				"bigLogFileName"
+			],
+			[
+				"buil",
+				"buildConfig"
+			],
+			[
+				"write",
+				"writeToLogFile"
+			],
+			[
+				"dire",
+				"directory"
+			],
+			[
+				"di",
+				"directory"
+			],
+			[
+				"exi",
+				"exit"
+			],
+			[
+				"undoD",
+				"undoDDLDir"
+			],
+			[
+				"drop",
+				"dropPackageDir"
+			],
+			[
+				"bigLo",
+				"bigLogFileName"
+			],
+			[
+				"log",
+				"logFileName"
+			],
+			[
+				"art",
+				"artifactoryPass"
+			],
+			[
+				"arti",
+				"artifactoryPort"
+			],
+			[
+				"git",
+				"gitUser"
+			],
+			[
+				"artif",
+				"artifactoryHost"
+			],
+			[
+				"bi",
+				"bigLogNameFormat"
+			],
+			[
+				"cooki",
+				"cookieStr"
+			],
+			[
+				"reques",
+				"requestCookieStr"
+			],
+			[
+				"requ",
+				"requestCookies"
+			],
+			[
+				"reque",
+				"requestCookieStr"
+			],
+			[
+				"currFile",
+				"currFilePackage"
+			],
+			[
+				"search",
+				"searchString"
+			],
+			[
+				"cur",
+				"currFilePackage"
+			],
+			[
+				"searchFo",
+				"searchForProcedure"
+			],
+			[
+				"validate",
+				"validateUpdatePolicy"
+			],
+			[
+				"valid",
+				"validateUpdate"
+			],
+			[
+				"get",
+				"getRepo"
+			],
+			[
+				"transition",
+				"transitionWeek"
+			],
+			[
+				"kicko",
+				"kickoffsCurrentWeek3"
+			],
+			[
+				"deve",
+				"developerSet"
+			],
+			[
+				"develop",
+				"developerList"
+			],
+			[
+				"develo",
+				"developerList"
+			],
+			[
+				"Simple",
+				"SimpleHTTPRequestHandler"
+			],
+			[
+				"Simp",
+				"SimpleHTTPRequestHandler"
+			],
+			[
+				"MOD",
+				"MOD_TX_DX_301"
+			],
+			[
+				"currFil",
+				"currFileMatches"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"queu",
+				"queues"
+			],
+			[
+				"De",
+				"DependencyGraph"
+			],
+			[
+				"gen",
+				"generateSearchPage"
+			],
+			[
+				"callSt",
+				"nextLevelCallStack"
+			],
+			[
+				"searc",
+				"searchString"
+			],
+			[
+				"currFileP",
+				"currFilePackage"
+			],
+			[
+				"sear",
+				"searchFileProcedure"
+			],
+			[
+				"matchNo",
+				"matchNode"
+			],
+			[
+				"matchNod",
+				"matchNodes"
+			],
+			[
+				"line",
+				"linecache"
+			],
+			[
+				"lineNu",
+				"lineNumber"
+			],
+			[
+				"calling",
+				"calling_proc"
+			],
+			[
+				"lineN",
+				"lineNumber"
+			],
+			[
+				"lineV",
+				"lineValue"
+			],
+			[
+				"lineVa",
+				"lineValue"
+			],
+			[
+				"lineNumber",
+				"lineNumber2"
+			],
+			[
+				"S",
+				"SEARCHSTRING"
+			],
+			[
+				"h_route",
+				"h_route_description"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/SQL Plus.sublime-build",
+	"command_palette":
+	{
+		"height": 150.0,
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"subim",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"plugin",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Code/Qualifacts/carelogic-fielded/webapp/build.gradle",
+		"/C/Program Files/Apache Software Foundation/Tomcat 6.0/logs/stdout_20150925.log",
+		"/C/Users/justin.laster/BuildScript.sh",
+		"/C/Users/justin.laster/AppData/Roaming/Sublime Text 2/Packages/User/SQL Plus.sublime-build",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/CM/automation/build.pl",
+		"/S/!Scripts/03-Adult5.sql",
+		"/C/Code/Qualifacts/carelogic-orange/webapp/carelogic-services/build.gradle",
+		"/C/Code/Qualifacts/testing_git_hook/FindStoriesAssociatedWithRevisions.py",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/Packages/activity_tx.pks",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/Packages/activity_tx.pkb",
+		"/C/Users/justin.laster/Desktop/hello.js",
+		"/C/Users/justin.laster/Downloads/RetrieveLatestContentSetVersions_POSTGRES.sql",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/AdhocReportBuilder/Views/rpt_client_document.sql",
+		"/C/Users/justin.laster/Documents/HLI/le_service/le-services/WEB-INF/classes/internal/use-case-config.xml",
+		"/C/Users/justin.laster/Documents/HLI/le_service/le-services/WEB-INF/classes/internal/le-service-config.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 6.0/conf/carelogic-config/dev/carelogic.home/config/datasources.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 6.0/conf/carelogic-config/dev/carelogic.home/config/carelogic-batch.properties",
+		"/C/Code/Qualifacts/carelogic-config/dev/carelogic.home/config/carelogic-batch.properties",
+		"/C/Code/Qualifacts/carelogic-config/dev/carelogic.home/config/datasources.xml",
+		"/C/Code/Qualifacts/carelogic-hotfixes/webapp/.gitignore",
+		"/C/Code/Qualifacts/carelogic-hotfixes/.gitignore",
+		"/C/Users/justin.laster/Documents/KlokSync/index.html",
+		"/C/Users/justin.laster/Google Drive/Documents/Useful Queries/RO Reporting Count.sql",
+		"/C/Users/justin.laster/Documents/KlokSync/timesheet.py",
+		"/C/Users/justin.laster/Documents/CreatePatchFromOldRepo",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/DML/DSM-1274.sql",
+		"/C/Code/Qualifacts/testing_git_hook/runSprintReport.py",
+		"/C/Users/justin.laster/Desktop/backward_compat_diff.out",
+		"/C/Code/Qualifacts/testing_git_hook/jiraWorker.py",
+		"/C/Users/justin.laster/Documents/KlokSync/Timesheet.sql",
+		"//ndc-dv-btc1.qsidc.com/logs/batch.log",
+		"/C/Users/justin.laster/Desktop/backward_compat_tickets.out",
+		"/C/cygwin64/home/justin.laster/scripts/test.js",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/AdhocReportBuilder/Snapshot/InitialLoad/mv_claim_initial_bulkload.sql",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/DDL/undo.DXBCXV-251.sql",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/compile_all_plsql",
+		"/C/Users/justin.laster/Downloads/98.20.sql",
+		"/C/Code/Qualifacts/build_test_files.diff",
+		"/C/Code/Qualifacts/testing_git_hook/SprintReport.py",
+		"/C/Users/justin.laster/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.IE5/52BJ49PM/1_state_report_batch_1492.txt",
+		"/C/Users/justin.laster/Documents/Carelogic Batch/Dockerfiles/Logs/Dockerfile",
+		"/C/Users/justin.laster/Documents/Carelogic Batch/Dockerfiles/BaseTomcat/Dockerfile",
+		"/C/Users/justin.laster/AppData/Local/Temp/tmpC69A.tmp.pkb",
+		"/C/Users/justin.laster/AppData/Local/Temp/tmp802E.tmp.pkb",
+		"/C/Users/justin.laster/AppData/Local/Temp/tmpE46A.tmp.pkb",
+		"/C/Code/Qualifacts/testing_git_hook/gitWorker.py",
+		"/C/Code/EclipseWorkspace/carelogic-hql-root/settings.gradle",
+		"/C/Code/EclipseWorkspace/carelogic-hql-root/build.gradle",
+		"/C/Code/Qualifacts/carelogic-orange/webapp/carelogic-webapp/build.gradle",
+		"/C/Code/Qualifacts/carelogic-orange/webapp/build.gradle",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/DML/DSM-1066.sql",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/DML/DSM-1341.sql",
+		"/C/Code/EclipseWorkspace/carelogic-hql/build.gradle",
+		"/C/Users/justin.laster/Downloads/DXBCXV-5_RPT_CLIENT_ORDER_CONSULT.sql",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/DML/CLS-8444.sql",
+		"/S/!SuchSpreadsheetMuchWorkSoFresh/Master_Upload_Spreadsheet_QSI-XXXX.xml",
+		"/C/Code/Qualifacts/carelogic-justin-future/plsql/Standard/Packages/wv_aps_rea.pkb",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/AdhocReportBuilder/Views/rpt_client_dsm5_diag_spec_sev.sql",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/AdhocReportBuilder/Views/rpt_client_dsm5_diag_dtl_code.sql",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/AdhocReportBuilder/Views/rpt_client_dsm5_diag_pcf.sql",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/AdhocReportBuilder/Views/rpt_client_dsm5_diag.sql",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/AdhocReportBuilder/Views/rpt_client_dsm5_diag_dtl.sql",
+		"/C/Users/justin.laster/AppData/Local/Temp/7zO5276.tmp/icd10.xml",
+		"/C/Code/Qualifacts/carelogic-justin-future/webapp/build.gradle",
+		"/C/Users/justin.laster/Downloads/noname.txt",
+		"/C/Users/justin.laster/Documents/KlokSync/klok.db",
+		"/C/Users/justin.laster/Google Drive/Documents/Useful Queries/Pentaho Initialize.sql",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/AdhocReportBuilder/Views/rpt_client_order_consult.sql",
+		"/C/Program Files/Apache Software Foundation/Tomcat 6.0/conf/tomcat-users.xml",
+		"/C/Users/justin.laster/Documents/ICD-10 Project/QSI-6280/FindAllAny.sql",
+		"/C/Users/justin.laster/Documents/ICD-10 Project/QSI-6280/FindAllRunner.sql",
+		"/C/Users/justin.laster/Documents/ICD-10 Project/QSI-6280/FindAll.sql",
+		"/C/Users/justin.laster/Documents/Backwards Compatibility/Prod Break Bug/Research.sql",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/DDL/98.10.sql",
+		"/C/Code/Qualifacts/carelogic-justin-fielded/webapp/build.gradle",
+		"/C/Code/Qualifacts/carelogic-justin-fielded/98.12.1.diff",
+		"/C/Code/Qualifacts/plsql/98.12.1.diff",
+		"/C/Users/justin.laster/Desktop/Updating For Release 98/1-98.12.1.diff",
+		"/C/Users/justin.laster/AppData/Local/Temp/wz6231/Code/diagnosis_code_retrieve.pkb",
+		"/C/Code/Qualifacts/plsql/Standard/Packages/alert_process.pkb",
+		"//ndc-pr-tas4.qsidc.com/logs2/carelogic.log",
+		"/C/Users/justin.laster/Downloads/QSI-6280.diff",
+		"/C/Users/justin.laster/Documents/ICD-10 Project/QSI-6280/QSI-6280QueryResults.csv",
+		"/C/Users/justin.laster/Documents/ICD-10 Project/QSI-6280/all_query_results.out",
+		"/C/Users/justin.laster/AppData/Local/Temp/7zOBDBA.tmp/98.12.sql",
+		"/C/Users/justin.laster/AppData/Local/Temp/wze93d/DDL/98.12.sql",
+		"/C/Code/Qualifacts/plsql/Standard/DDL/98.12.sql",
+		"/C/Code/Qualifacts/plsql/Standard/DDL/QSI-2111.sql",
+		"/C/Users/justin.laster/Documents/Backwards Compatibility/Prod Break Bug/Recreated.sql",
+		"/C/Users/justin.laster/Downloads/mod_tx_plan_note.pkb",
+		"/C/Code/Qualifacts/carelogic-webapp-gradle/build.gradle",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/Packages/diagnosis_code_retrieve.pkb",
+		"/C/Code/Qualifacts/carelogic-orange/plsql/Standard/Packages/activity_set_process.pkb",
+		"/C/Windows/Temp/sst673F.pkb",
+		"/C/Windows/Temp/sst55FF.pkb",
+		"/C/Windows/Temp/sst16E2.pkb",
+		"/C/Windows/Temp/sst8AFD.pkb",
+		"/C/Windows/Temp/sstC45F.pkb",
+		"/C/Code/Qualifacts/plsql/Standard/CLH/QSI-1103.sql",
+		"/C/Users/justin.laster/AppData/Local/Temp/tmp1039.tmp.pkb",
+		"/C/Users/justin.laster/Documents/ICD-10 Project/QSI-6280/FindAll18.sql",
+		"/C/Users/justin.laster/Documents/ICD-10 Project/QSI-6280/FindAll11.sql",
+		"/C/Users/justin.laster/Documents/ICD-10 Project/QSI-6280/FindAll.out",
+		"/C/cygwin64/home/justin.laster/scripts/collectGitBranchInfo.sh",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/DDL/undo.DXBCXV-161.cds.sql",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/DDL/DXBCXV-161.cds.sql",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/DDL/undo.98.10.CDS.sql",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/DDL/98.10.CDS.sql",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/DDL/undo.DXBCXV-162.sql",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/DDL/undo.98.10.sql",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/DDL/DXBCXV-162.sql",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/DDL/98.10.sql",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/testGitlab/BackwardCompatibility/test.md",
+		"//nco-dv-tas3.qualifacts.com/logs/devstd.log",
+		"//nco-qa-tas3.qualifacts.com/logs/qaprod.log",
+		"//nco-qa-tas3.qualifacts.com/logs/qacert.log",
+		"/C/Windows/Temp/claim_preprocess_ord.pkb",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/AdhocReportBuilder/Views/rpt_claim.sql",
+		"/C/Users/justin.laster/Downloads/Dr First Investigation.sql",
+		"/C/Users/justin.laster/AppData/Local/Temp/7zO6395.tmp/dropDownChangeScript.js",
+		"/C/Users/justin.laster/AppData/Local/Temp/7zOA851.tmp/treatmentPlanGrid.js",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/carelogic-webapp-gradle/carelogic-webapp/src/main/webapp/login/app/controller/Login.js",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/Packages/activity_func.pks",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/Packages/system_table_audit.pks",
+		"/C/Users/justin.laster/Downloads/Dockerfile (2)",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/carelogic-webapp-gradle/build.gradle",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/carelogic-webapp-gradle/carelogic-batch/src/test/resources/com/qualifacts/carelogic/batch/config/datasources.xml",
+		"/C/Users/justin.laster/Google Drive/Code/Git_Repository/carelogic-webapp-gradle/carelogic-batch/src/test/resources/com/qualifacts/carelogic/batch/config/carelogic-batch.properties"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>,-*/target/*,*.java,-*/DML/*,-*.out,*.pkb,-*.pks,-*.sql,*.js,-*/build/*, *",
+			"<open folders>,-*/target/*,*.java,-*/DML/*,-*.out,*.pkb,-*.pks,-*.sql,*.js,*",
+			"<open folders>,-*/target/*,*.java,-*/DML/*,-*.out,*.pkb,-*.pks,-*.sql,*.js",
+			"<open folders>,-*/target/*,*.java,-*/DML/*,-*.out,*.pkb,-*.pks,-*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb,-*.pks,-*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,**.pkb,-*.pks,*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb,-*.pks,-*.sql",
+			"<open folders>,-*/target/*,*.java,-*/DML/*,-*.out,*.pkb,-*.pks,-*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb,-*.pks,-*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,-*.pkb,-*.pks,*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,-*.pkb,-*.pks,^[0-9]",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,-*.pkb,-*.pks,*.sql,^[0-9]",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,-*.pkb,-*.pks,*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb,-*.pks,-*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,-*.pkb,-*.pks,*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb,-*.pks,-*.sql",
+			"<open folders>,-*/target/*,*.java,-*/DML/*,-*.out,-*.pkb,-*.pks,-*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,-*.pkb,-*.pks,*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb,*.pks,*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb,-*.pks,-*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,-*.pkb,-*.pks,*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,-*.pkb,*.pks,*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb,*.pks,-*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb,-*.pks,*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,-*.pkb,-*.pks,*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb,*.pks,-*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,-*.pkb,-*.pks,*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb,-*.pks",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,-*.pkb,-*.pks,*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb,*.pks",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb,*.pks,*.sql",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb, *.pks",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out,*.pkb",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-*.out",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*,-output.out",
+			"<open folders>,-*/target/*,-*.java,-*/DML/*",
+			"<open folders>,-*/target/*,-*.java",
+			"<open folders>,-*/target/*, *.java",
+			"<open folders>,-*/target/*",
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"{}",
+			"F14.20",
+			"idSelectorFormat",
+			"indexSelectorFormat",
+			"159",
+			".159",
+			":",
+			"plsql/Standard/DDL",
+			"'\\'#@\\''",
+			"\\'",
+			"'''",
+			"index=",
+			"'issueId': u'",
+			"^Revert",
+			"53741008",
+			"h_icd_code_values",
+			"invalidIssueList",
+			"invalidMessageList",
+			"gitWorker",
+			"'",
+			"''",
+			"'",
+			"' ||",
+			"' ||chr(13) ||",
+			"' ||",
+			"'||chr(13)||",
+			"'||chr(13) ||",
+			"'|| chr(13) ||",
+			":='",
+			"'  ",
+			"fisheyeCrucibleWorker",
+			"branch",
+			";",
+			"setVal()",
+			"''",
+			"CCAR Living Arrangement",
+			"team10",
+			"team8",
+			"a089968b5c9d1b6fe1213db9408b87f91fa1aebb",
+			"queryBuilder.append(\"",
+			"T41.41",
+			", code=",
+			"T41.41",
+			": code=",
+			"code=T41.41xD",
+			"com.qualifacts.carelogic.integration.healthLanguage.domain.HealthLanguageSearchMatch ",
+			"HealthLanguageSearchMatch [",
+			"T41.41",
+			" DEBUG com.qualifacts.carelogic.integration.healthLanguage.bo.HealthLanguageIntegrationBOImpl http-8080-2 qsi@team3a /content/codeSearch/codeSystem/icd10/searchOptions.json",
+			" || 2015-09-03 14:44:44,557 DEBUG com.qualifacts.carelogic.integration.healthLanguage.bo.HealthLanguageIntegrationBOImpl http-8080-2 qsi@team3a /content/codeSearch/codeSystem/icd10/searchOptions.json",
+			"T41.41",
+			"Match: ",
+			"$SCHEMA",
+			"plsql/Standard",
+			"Standard/",
+			"/Standard",
+			"@QSI",
+			"Connected.",
+			"'",
+			",",
+			"PL/SQL procedure successfully completed",
+			"Connected.",
+			"PL/SQL procedure successfully completed.",
+			"axis_check_form",
+			"axis_1_2",
+			"axis_1",
+			" = \"",
+			"!=",
+			" ^origin/master --no-merges",
+			"git log ",
+			"AS ",
+			" = ",
+			"!=",
+			"if [ \"${OUTPUT2}\"",
+			"if [ \"${OUTPUT2}\" != \"\" ]; then",
+			"echo \"${OUTPUT1}\"",
+			"if [ \"${OUTPUT2}\" != \"\" ]; then",
+			"git log o",
+			"echo \"${OUTPUT1}\"",
+			"OUTPUT1=\"$(",
+			"collectGitBranchInfo",
+			"justin.laster@L0402-JLASTE",
+			"' || rec.link || '",
+			"' || rec.system_name || '.",
+			"echo \"${OUTPUT1}\"",
+			"git log origin/Team_Orange",
+			"OUTPUT1=\"",
+			"OUTPUT1=",
+			"git log or",
+			"git log origin",
+			"OUTPUT=\"$OUTPUT $OUTPUT1\"",
+			"s.setAttribute",
+			"collecti",
+			"ShowReview",
+			"serviceDoc.",
+			"resp.",
+			" (",
+			"	* ",
+			"Current Diag",
+			"order",
+			"value co",
+			"** ",
+			"TX_PLAN_GRID_TYPE",
+			"order_",
+			"insert",
+			"~pkb",
+			", ",
+			"@",
+			"' ||",
+			"'   ",
+			"''",
+			" ' ||",
+			"DSM_DIAG_CATEGORY_RANGE",
+			"Standard/DML/",
+			"Standard/DDL/",
+			"BR",
+			"pin",
+			"pset",
+			"oth",
+			"get_icd",
+			"run_ub04",
+			"get_config_value",
+			"diag_array_info",
+			"get_diag_info",
+			"S02.8",
+			"1500165",
+			"1499938",
+			"NM1*"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"expected",
+			"doc"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 242.0
+	},
+	"output.git":
+	{
+		"height": 94.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"tx_diag_retriev",
+				"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/Packages/tx_diag_retrieve.pkb"
+			],
+			[
+				"datasources.xml",
+				"carelogic-batch/build/resources/test/com/qualifacts/carelogic/batch/config/datasources.xml"
+			],
+			[
+				"datasources.",
+				"carelogic-batch/bin/com/qualifacts/carelogic/batch/config/datasources.xml"
+			],
+			[
+				"build",
+				"build.gradle"
+			],
+			[
+				"build.gra",
+				"carelogic-services/build.gradle"
+			],
+			[
+				"build.gradle",
+				"build.gradle"
+			],
+			[
+				"localdateutilt",
+				"carelogic-services/src/test/java/com/qualifacts/carelogic/LocalDateUtilTest.java"
+			],
+			[
+				"undo.",
+				"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/DDL/undo.MURECON-753.sql"
+			],
+			[
+				"murecon75",
+				"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/DDL/undo.MURECON-753.sql"
+			],
+			[
+				"headercreator",
+				"carelogic-cda/src/main/java/com/qualifacts/carelogic/ccda/bo/generators/HeaderCreator.java"
+			],
+			[
+				"murecon-63",
+				"/C/Users/justin.laster/Google Drive/Code/Git_Repository/plsql/Standard/DDL/MURECON-63.sql"
+			],
+			[
+				"drfirst",
+				"carelogic-webapp/target/classes/com/qualifacts/carelogic/integration/rcopia/DrFirstERxIntegrationPlugin.java"
+			],
+			[
+				"mupro",
+				"MUPROBLIST-53.sql"
+			],
+			[
+				"muproblist",
+				"MUPROBLIST-53"
+			],
+			[
+				"clservices",
+				"carelogic-services/src/main/resources/clServicesAppContext.xml"
+			],
+			[
+				"testconfigurat",
+				"carelogic-services/src/test/java/com/qualifacts/carelogic/TestConfiguration.java"
+			],
+			[
+				"es5-sh",
+				"carelogic-webapp/src/main/webapp/resources/script/3rdparty/es5-sham.js"
+			],
+			[
+				"es5",
+				"carelogic-webapp/src/main/webapp/resources/script/3rdparty/es5-sham.js"
+			],
+			[
+				"mod_measu",
+				"carelogic-webapp/src/main/webapp/resources/script/svcdoc/modules/mod_measure.js"
+			],
+			[
+				"3rdpart",
+				"carelogic-webapp/src/main/webapp/resources/script/3rdparty.js"
+			],
+			[
+				"abstractservice",
+				"carelogic-webapp/src/main/java/com/qualifacts/carelogic/svcdoc/modules/AbstractServiceDocModuleController.java"
+			],
+			[
+				"batchmana",
+				"carelogic-services/src/main/java/com/qualifacts/carelogic/batch/bo/BatchManagerImpl.java"
+			],
+			[
+				"muprob",
+				"plsql/Standard/DML/MUPROBLIST-54.sql"
+			],
+			[
+				"mudaport",
+				"plsql/Standard/DDL/MUDATPORT-1.sql"
+			],
+			[
+				"mudatport",
+				"plsql/Standard/DDL/MUDATPORT-1.sql"
+			],
+			[
+				"71.0.",
+				"plsql/Standard/DML/71.0.sql"
+			],
+			[
+				"72.0.sql",
+				"plsql/Standard/DML/72.0.sql"
+			],
+			[
+				"72.0",
+				"plsql/Standard/DDL/72.0.sql"
+			],
+			[
+				"mod_tx_diag_0",
+				"plsql/Standard/Packages/mod_tx_diag_07.pkb"
+			],
+			[
+				"mudatpor",
+				"plsql/Standard/DDL/MUDATPORT-1.sql"
+			],
+			[
+				"client_payer_plan_process",
+				"plsql/Standard/Packages/client_payer_plan_process.pkb"
+			],
+			[
+				"client_payer_plan",
+				"plsql/Standard/Packages/client_payer_plan.pkb"
+			],
+			[
+				"abstractpersont",
+				"carelogic-webapp/carelogic-services/src/test/java/com/qualifacts/carelogic/AbstractPersonTest.java"
+			],
+			[
+				"mucqm",
+				"plsql/Standard/DML/MUCQM-653.sql"
+			],
+			[
+				"utility",
+				"plsql/Standard/Packages/utility_functions.pkb"
+			],
+			[
+				"mots_initial",
+				"plsql/Standard/Packages/mots_initial_extract.pkb"
+			],
+			[
+				"mu_proces",
+				"plsql/Standard/Packages/mu_process.pkb"
+			],
+			[
+				"state_report",
+				"plsql/Standard/Packages/state_report_process.pkb"
+			],
+			[
+				"mhis_ex",
+				"plsql/Standard/Packages/mhis_extract.pkb"
+			],
+			[
+				"admin_list",
+				"plsql/Standard/Packages/admin_list.pkb"
+			],
+			[
+				"ccar_extract",
+				"plsql/Standard/Packages/ccar_export_extract.pkb"
+			],
+			[
+				"modvitals",
+				"carelogic-webapp/carelogic-services/src/main/java/com/qualifacts/carelogic/svcdoc/vitals/ModVitals.java"
+			],
+			[
+				"modvita",
+				"carelogic-webapp/carelogic-services/src/main/java/com/qualifacts/carelogic/svcdoc/vitals/ModVitals.java"
+			],
+			[
+				"file_store",
+				"plsql/Standard/Packages/file_store_process.pkb"
+			],
+			[
+				"file_store_proces",
+				"plsql/Standard/Packages/file_store_process.pks"
+			],
+			[
+				"mod_measure",
+				"plsql/Standard/Packages/mod_measure.pkb"
+			],
+			[
+				"qsi-4031",
+				"plsql/Standard/DML/QSI-4031.sql"
+			],
+			[
+				"measure_update",
+				"plsql/Standard/DML/Measure_Update.sql"
+			],
+			[
+				"measure_up",
+				"plsql/Standard/DDL/Measure_Update.sql"
+			],
+			[
+				"69.0",
+				"plsql/Standard/DML/69.0.sql"
+			],
+			[
+				"70.0",
+				"plsql/Standard/DDL/70.0.sql"
+			],
+			[
+				"ziputil",
+				"plsql/Standard/Packages/ZipUtils.pks"
+			],
+			[
+				"mod_substance",
+				"plsql/Standard/Packages/mod_substance_abuse.pkb"
+			],
+			[
+				"mod_immun",
+				"plsql/Standard/Packages/mod_immune.pkb"
+			],
+			[
+				"mod_ddap_as",
+				"plsql/Standard/Packages/mod_ddap_assessment.pkb"
+			],
+			[
+				"mod_ddap_ass",
+				"plsql/Standard/Packages/mod_ddap_assessment_process.pkb"
+			],
+			[
+				"mod_ddap_",
+				"plsql/Standard/Packages/mod_ddap_assessment.pkb"
+			],
+			[
+				"clinicalreconhelper",
+				"carelogic-webapp/carelogic-webapp/src/main/java/com/qualifacts/carelogic/client/clinicalRecon/domain/ClinicalReconHelper.java"
+			],
+			[
+				"basecon",
+				"carelogic-webapp/target/classes/com/qualifacts/carelogic/BaseController.java"
+			],
+			[
+				"import",
+				"carelogic-webapp/target/classes/com/qualifacts/carelogic/ccdaImport/CCDAImportController.java"
+			],
+			[
+				"v6_svcd",
+				"plsql/Standard/Packages/v6_svcdoc.pkb"
+			],
+			[
+				"mod_mhis_client_data",
+				"plsql/Standard/Packages/mod_mhis_client_data.pkb"
+			],
+			[
+				"svcdoc_driver",
+				"plsql/Standard/Packages/svcdoc_driver.pkb"
+			],
+			[
+				"v6_svc",
+				"plsql/Standard/Packages/v6_svcdoc.pkb"
+			],
+			[
+				"v6_inter",
+				"plsql/Standard/Packages/v6_interface.pkb"
+			],
+			[
+				"mod_measure_pro",
+				"plsql/Standard/Packages/mod_measure_process.pkb"
+			],
+			[
+				"65.0",
+				"plsql/Standard/DDL/undo.65.0.sql"
+			],
+			[
+				"unsig",
+				"plsql/Standard/Packages/unsign_document_process.pkb"
+			],
+			[
+				"svcdoc_proces",
+				"plsql/Standard/Packages/svcdoc_process.pkb"
+			],
+			[
+				"doclib_pro",
+				"plsql/Standard/Packages/doclib_process.pkb"
+			],
+			[
+				"mod_vit",
+				"plsql/Standard/Packages/mod_vitals.pkb"
+			],
+			[
+				"mod_micp",
+				"plsql/Standard/Packages/mod_micp.pkb"
+			],
+			[
+				"mod_micp_copy",
+				"plsql/Standard/Packages/mod_micp_copy.pkb"
+			],
+			[
+				"mod_crg_tpg",
+				"plsql/Standard/Packages/mod_crg_tpg_assessments.pkb"
+			],
+			[
+				"mod_referral",
+				"plsql/Standard/Packages/mod_referral.pks"
+			],
+			[
+				"svcdoc_process",
+				"plsql/Standard/Packages/svcdoc_process.pkb"
+			],
+			[
+				"pcpcdh",
+				"carelogic-webapp/src/main/java/com/qualifacts/carelogic/svcdoc/modules/personCenteredProfile/PersonCenteredProfileClientDataModuleHelper.java"
+			],
+			[
+				"pcpclientd",
+				"carelogic-webapp/src/main/java/com/qualifacts/carelogic/svcdoc/modules/personCenteredProfile/PersonCenteredProfileClientDataController.java"
+			],
+			[
+				"cls_form",
+				"plsql/Standard/Packages/cls_form.pkb"
+			],
+			[
+				"utilit",
+				"plsql/Standard/Packages/utility_functions.pkb"
+			],
+			[
+				"mod_tx_prob_grid07_process",
+				"plsql/Standard/Packages/mod_tx_prob_grid07_process.pkb"
+			],
+			[
+				"mod_tx_prob_g",
+				"plsql/Standard/Packages/mod_tx_prob_grid07.pkb"
+			],
+			[
+				"tx_plan_rule_",
+				"plsql/Standard/Packages/tx_plan_rule_process.pkb"
+			],
+			[
+				"admin_unsign",
+				"plsql/Standard/Packages/admin_unsign_document.pkb"
+			],
+			[
+				"unsign_docum",
+				"plsql/Standard/Packages/unsign_document_process.pkb"
+			],
+			[
+				"mod_tn_face",
+				"plsql/Standard/Packages/mod_tn_face_2_face.pkb"
+			],
+			[
+				"dapnote",
+				"carelogic-webapp/carelogic-services/src/main/java/com/qualifacts/carelogic/svcdoc/modules/dapNote/model/DapNote.java"
+			],
+			[
+				"unsign_do",
+				"plsql/Standard/Packages/unsign_document_process.pkb"
+			],
+			[
+				"svcdoc_pdf",
+				"plsql/Standard/Packages/svcdoc_pdf.pkb"
+			],
+			[
+				"oracleremotedriver",
+				"plsql/Standard/Packages/OracleRemoteDriver.pks"
+			],
+			[
+				"doc.pkb",
+				"plsql/Standard/Packages/doc.pkb"
+			],
+			[
+				"cls_face",
+				"plsql/Standard/Packages/cls_face.pkb"
+			],
+			[
+				"measure",
+				"plsql/Standard/DDL/Measure_Update.sql"
+			],
+			[
+				"undo.measure",
+				"plsql/Standard/DDL/undo.Measure_Update.sql"
+			],
+			[
+				"measure_",
+				"plsql/Standard/DDL/Measure_Update.sql"
+			],
+			[
+				"mod_crt_tp",
+				"plsql/Standard/Packages/mod_crg_tpg_assessments.pks"
+			],
+			[
+				"mod_crg_tp",
+				"plsql/Standard/Packages/mod_crg_tpg_assessments.pkb"
+			],
+			[
+				"mod_crg_tps",
+				"plsql/Standard/Packages/mod_crg_tpg_assessments.pkb"
+			],
+			[
+				"mod_aps_b",
+				"plsql/Standard/Packages/mod_aps_bds.pkb"
+			],
+			[
+				"mod_admission",
+				"plsql/Standard/Packages/mod_admission_consent.pkb"
+			],
+			[
+				"v6_svcdoc",
+				"plsql/Standard/Packages/v6_svcdoc.pkb"
+			],
+			[
+				"micp_um_scre",
+				"plsql/Standard/Packages/micp_um_screen.pkb"
+			],
+			[
+				"mod_micp_cop",
+				"plsql/Standard/Packages/mod_micp_copy.pkb"
+			],
+			[
+				"mod_crg_tpg_ass",
+				"plsql/Standard/Packages/mod_crg_tpg_assessments.pkb"
+			],
+			[
+				"clinicalreconcon",
+				"carelogic-webapp/carelogic-webapp/src/main/java/com/qualifacts/carelogic/client/clinicalRecon/ClinicalReconController.java"
+			],
+			[
+				"reportstrea",
+				"ReportGen/ReportGen/src/qsi/reportgen/ReportStream.java"
+			],
+			[
+				"mod_pn_nur",
+				"plsql/Custom/Oaklawn/Packages/mod_pn_nurse.pkb"
+			],
+			[
+				"mod_measure_r",
+				"plsql/Standard/Packages/mod_measure_process.pkb"
+			],
+			[
+				"rpt_client",
+				"plsql/Standard/AdhocReportBuilder/Views/rpt_client.sql"
+			],
+			[
+				"scheduleserv",
+				"carelogic-webapp/carelogic-webapp/src/main/java/com/qualifacts/carelogic/mobilecalendar/ScheduleServiceController.java"
+			],
+			[
+				"client_medicat",
+				"plsql/Standard/Packages/client_medication.pkb"
+			],
+			[
+				"recon",
+				"plsql/Standard/Packages/med_recon.pkb"
+			],
+			[
+				"clinicanlabsyn",
+				"carelogic-webapp/carelogic-services/src/test/java/com/qualifacts/carelogic/integration/clinician/lab/repository/ClinicianLabSyncDAOTest.java"
+			],
+			[
+				"utlit",
+				"plsql/Standard/Packages/utility_functions.pkb"
+			],
+			[
+				"svcdoc_pro",
+				"plsql/Standard/Packages/svcdoc_process.pkb"
+			],
+			[
+				"signatureformcon",
+				"carelogic-webapp/carelogic-webapp/target/classes/com/qualifacts/carelogic/svcdoc/SignatureFormController.java"
+			],
+			[
+				"m",
+				"plsql/Standard/DDL/MURECON-63.sql"
+			],
+			[
+				"55.1",
+				"plsql/Standard/DML/55.1.sql"
+			],
+			[
+				"51.0",
+				"plsql/Standard/DML/51.0.sql"
+			],
+			[
+				"61.0",
+				"plsql/Standard/DDL/61.0.sql"
+			],
+			[
+				"61.0.sql",
+				"plsql/Standard/DDL/61.0.sql"
+			],
+			[
+				"documentamend",
+				"carelogic-webapp/carelogic-services/target/classes/com/qualifacts/carelogic/svcdoc/modules/documentAmendment/model/DocumentAmendment.java"
+			],
+			[
+				"murecon",
+				"plsql/Standard/DDL/MURECON-63.sql"
+			],
+			[
+				"57.0",
+				"plsql/Standard/DDL/57.0.sql"
+			],
+			[
+				"cls_chart",
+				"plsql/Standard/Packages/cls_chart.pkb"
+			],
+			[
+				"dashboard_mo",
+				"plsql/Standard/Packages/dashboard_module.pkb"
+			],
+			[
+				"svcdoc_g",
+				"plsql/Standard/Packages/svcdoc_group.pkb"
+			],
+			[
+				"dashboard_mod_de",
+				"plsql/Standard/Packages/dashboard_mod_demo.pkb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 151.0,
+	"status_bar_visible": true
+}
