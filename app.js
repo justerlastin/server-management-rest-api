@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 var buildCallback = function(emitter) {
-	var callback = function(response) {
+	return function(response) {
 		response.setEncoding('utf8');
 
 		var data = '';
@@ -26,28 +26,47 @@ var buildCallback = function(emitter) {
 			emitter.emit('update');
 		});
 	};
-	return callback;
 };
 
-var buildPostOptions = function(path, post_data) {
-	return {
+var buildRequestOptions = function() {
+	return 	{
 		hostname: config.dockerHostName,
 		port: config.dockerPort,
-		path: path,
-		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json'
 		}
 	};
+}
+
+var buildPostOptions = function(path) {
+	var options = buildRequestOptions();
+	options.path = path;
+	options.method = 'POST';
+
+	return options;
 };
 
 var buildGetOptions = function(path) {
-	return 	{
-		hostname: config.dockerHostName,
-		port: config.dockerPort,
-		path: path,
-		method: 'GET'
-	};
+	var options = buildRequestOptions();
+	options.method = 'GET';
+	options.path = path;
+	
+	return options;
+};
+
+var buildDeleteOptions = function(path) {
+	var options = buildRequestOptions();
+	options.method = 'DELETE';
+	options.path = path;
+
+	return options;
+};
+
+var RequestBuilder = {
+	buildCallback: buildCallback,
+	buildGetOptions: buildGetOptions,
+	buildPostOptions: buildPostOptions,
+	buildDeleteOptions: buildDeleteOptions
 };
 
 // Generic heartbeat endpoint
@@ -64,7 +83,7 @@ app.get('/servers', function(req, res) {
 	res.type('application/json');
 
 	var responseVal = new EventEmitter();
-	http.request(buildGetOptions('/containers/json?all=1'), buildCallback(responseVal)).end();
+	http.request(RequestBuilder.buildGetOptions('/containers/json?all=1'),RequestBuilder.buildCallback(responseVal)).end();
 
 	responseVal.on('update', function () {
 		var responseObjects = [];
@@ -101,7 +120,8 @@ app.post('/servers', function(req, res) {
 	// Will have to test this on multiple computers in the network.
 	// This can eventually be replaced by LDAP
 	var responseVal = new EventEmitter();
-	http.request(buildGetOptions('/containers/json?all=1'), buildCallback(responseVal)).end();
+
+	http.request(RequestBuilder.buildGetOptions('/containers/json?all=1'), RequestBuilder.buildCallback(responseVal)).end();
 
 	responseVal.on('update', function () {
 		var responseObjects = [];
@@ -166,7 +186,7 @@ app.post('/servers', function(req, res) {
 			});
 
 			var createServerHandler = new EventEmitter();
-			var createServerReq = http.request(buildPostOptions('/containers/create'), buildCallback(createServerHandler));
+			var createServerReq = http.request(RequestBuilder.buildPostOptions('/containers/create'), RequestBuilder.buildCallback(createServerHandler));
 			createServerReq.write(post_data);
 			createServerReq.end();
 
@@ -180,7 +200,7 @@ app.post('/servers', function(req, res) {
 
 				// Start the server
 				var startServerHandler = new EventEmitter();
-				var startServerReq = http.request(buildPostOptions('/containers/' + newServerId + '/start'), buildCallback(startServerHandler));
+				var startServerReq = http.request(RequestBuilder.buildPostOptions('/containers/' + newServerId + '/start'), RequestBuilder.buildCallback(startServerHandler));
 				startServerReq.write(post_data);
 				startServerReq.end();
 
@@ -199,13 +219,22 @@ app.post('/servers', function(req, res) {
 // Relinquish Server
 // Stops and deletes the container
 app.delete('/servers/:id', function(req, res) {
-	if(!req.params.id /*|| (we don't have this resource)*/) {
+	if(!req.params.id) {
 		res.statusCode = 404;
 		return res.send('Error 404: resource not found');
 	}
 
-	res.type('text/plan');
-	res.send('Server ' + req.params.id + ' has been relinquished.');
+	var stopServerHandler = new EventEmitter();
+	http.request(buildPostOptions('/containers/' + req.params.id + '/stop'), buildCallback(stopServerHandler)).end();
+
+	stopServerHandler.on('update', function () {
+		var deleteServerHandler = new EventEmitter();
+		http.request(buildDeleteOptions('/containers/' + req.params.id), buildCallback(deleteServerHandler)).end();
+		deleteServerHandler.on('update', function() {
+			res.type('text/plan');
+			res.send('Server ' + req.params.id + ' has been relinquished.');
+		});
+	});
 });
 
 app.listen(process.env.PORT || 4730);
