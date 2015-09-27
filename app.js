@@ -55,7 +55,7 @@ app.get('/servers', function(req, res) {
 		var responseObjects = []
 
 		var hostName = os.hostname();
-		var serverList = jsonPath.eval(JSON.parse(responseVal.data), '$.');
+		var serverList = jsonPath.eval(JSON.parse(responseVal.data), '$.*');
 		//var idList = jsonPath.eval(JSON.parse(responseVal.data), '$.*.Id');
 
 		serverList.forEach(function(server) {
