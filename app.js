@@ -2,6 +2,8 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var config = require('./config.json');
 var http = require('http');
+var EventEmitter = require("events").EventEmitter;
+var jsonPath = require('JSONPath');
 
 var app = express();
 
@@ -37,31 +39,32 @@ app.get('/servers', function(req, res) {
 		path: '/containers/json'
 	};
 
-	var responseVal = undefined;
+	var responseVal = new EventEmitter();
+	responseVal.on('update', function () {
+    		results = responseVal.data;
+	});
+
 	var callback = function(response) {
-	  var str = '';
+		var str = '';
+	 
+		response.on('data', function (chunk) {
+			str += chunk;
+		});
 
-	  //another chunk of data has been recieved, so append it to `str`
-	  response.on('data', function (chunk) {
-	    str += chunk;
-	  });
-
-	  //the whole response has been recieved, so we just print it out here
-	  response.on('end', function () {
-	    console.log(str);
-	    responseVal = str;
-	  });
+		response.on('end', function () {
+			responseVal.data = str;
+			responseVal.emit('update');
+		});
 	};
 
-	http.request(options, callback).end();
+	http.request("http://" + config.dockerHost + "/containers/json", callback).end();
 
-	while(responseVal == undefined) {
-		setTimeout(function(){
-		    console.log("Awaiting response from Docker...");
-		}, 2000);
-	}
-
-	res.json(responseObjects);
+	responseVal.on('update', function () {
+                // This is where I create an object from the JSON
+		// Then i can parse out what I want from it and return the results
+                console.log("Json evaluated: " + jsonPath.eval(responseVal.data, '$.*'));
+       		res.json(responseVal.data); 
+	});
 });
 
 // Request Server
