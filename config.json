@@ -1,3 +1,6 @@
 {
-	"dockerHost" : "localhost:4243"
+	"dockerHostName" : "192.168.1.4",
+	"dockerPort" : "4243",
+	"minPort" : 8081,
+	"maxPort" : 8084
 }
