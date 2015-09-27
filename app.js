@@ -61,10 +61,10 @@ app.get('/servers', function(req, res) {
 		serverList.forEach(function(server) {
 			var responseObj = {
 				'Hostname': hostName,
-				'Port': jsonPath.eval(server, '$.Ports.*.PublicPort'),
-				'RequestedBy': jsonPath.eval(server, '$.Names.[0]'), // provided by a label later
-				'Status' : jsonPath.eval(server, '$.Status'),
-				'ID': jsonPath.eval(server, '$.Id')
+				'Port': jsonPath.eval(server, '$.Ports.*.PublicPort')[0],
+				'RequestedBy': jsonPath.eval(server, '$.Names.[0]')[0], // provided by a label later
+				'Status' : jsonPath.eval(server, '$.Status')[0],
+				'ID': jsonPath.eval(server, '$.Id')[0]
 			};
 			responseObjects.push(responseObj);
 		});
