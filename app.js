@@ -4,6 +4,7 @@ var config = require('./config.json');
 var http = require('http');
 var EventEmitter = require("events").EventEmitter;
 var jsonPath = require('JSONPath');
+var os = require("os");
 
 var app = express();
 
@@ -24,15 +25,6 @@ app.get('/', function(req, res) {
 // displaying status of server
 app.get('/servers', function(req, res) {
 	res.type('application/json');
-
-	var responseObjects = []
-	var responseObj = {
-		'Hostname':'TSERVER',
-		'Port':'8081',
-		'RequestedBy':'tester',
-		'ID':'0928312nkpo12309u123npoi1239u123123poojpojsdf'
-	};
-	responseObjects.push(responseObj);
 
 	var options = {
 		host: config.dockerHost,
@@ -60,10 +52,24 @@ app.get('/servers', function(req, res) {
 	http.request("http://" + config.dockerHost + "/containers/json", callback).end();
 
 	responseVal.on('update', function () {
-                // This is where I create an object from the JSON
-		// Then i can parse out what I want from it and return the results
-                console.log("Json evaluated: " + jsonPath.eval(responseVal.data, '$.*'));
-       		res.json(responseVal.data); 
+		var responseObjects = []
+
+		var hostName = os.hostname();
+		var serverList = jsonPath.eval(JSON.parse(responseVal.data), '$.');
+		//var idList = jsonPath.eval(JSON.parse(responseVal.data), '$.*.Id');
+
+		serverList.forEach(function(server) {
+			var responseObj = {
+				'Hostname': hostName,
+				'Port': jsonPath.eval(server, '$.Ports.*.PublicPort'),
+				'RequestedBy': jsonPath.eval(server, '$.Names.[0]'), // provided by a label later
+				'Status' : jsonPath.eval(server, '$.Status'),
+				'ID': jsonPath.eval(server, '$.Id')
+			};
+			responseObjects.push(responseObj);
+		});
+
+   		res.json(responseObjects); 
 	});
 });
 
