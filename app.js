@@ -1,11 +1,14 @@
 var express = require('express');
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser');
+var config = require('./config.json');
+var http = require('http');
+
 var app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
   extended: true
-})); 
+}));
 
 // Generic heartbeat endpoint
 app.get('/', function(req, res) {
@@ -28,6 +31,35 @@ app.get('/servers', function(req, res) {
 		'ID':'0928312nkpo12309u123npoi1239u123123poojpojsdf'
 	};
 	responseObjects.push(responseObj);
+
+	var options = {
+		host: config.dockerHost,
+		path: '/containers/json'
+	};
+
+	var responseVal = undefined;
+	var callback = function(response) {
+	  var str = '';
+
+	  //another chunk of data has been recieved, so append it to `str`
+	  response.on('data', function (chunk) {
+	    str += chunk;
+	  });
+
+	  //the whole response has been recieved, so we just print it out here
+	  response.on('end', function () {
+	    console.log(str);
+	    responseVal = str;
+	  });
+	};
+
+	http.request(options, callback).end();
+
+	while(responseVal == undefined) {
+		setTimeout(function(){
+		    console.log("Awaiting response from Docker...");
+		}, 2000);
+	}
 
 	res.json(responseObjects);
 });
